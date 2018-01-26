@@ -8,12 +8,12 @@
 
 import Foundation
 
-class Entry: Equatable {
+class Entry: Equatable, Codable {
     
     // MARK:    Properties
     
-    let title: String
-    let body: String
+    var title: String
+    var body: String
     
     // MARK:    Initializer
     
